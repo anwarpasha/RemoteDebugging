@@ -1,0 +1,10 @@
+1. Download remote debugger  with respect to VS version and installed in the local machine.
+2. Related files will be Located at the below location
+C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\Remote Debugger\x64
+3. Go to Remote machine and copy the Remote Debugger folder in any location.
+4.Run the msvsmon.exe application as Administrator from the below link in the remote computer
+5. Goto Tools/Options of the VS debugger (msvsmon.exe) and set the 'No Authentication option with allow all users'
+6. Copy the Dll and its PDB files in the remote computer.
+7. Start the application in the remote machine
+8. In local machine (VS) attached the debugger by selecting the remote machine and running application(EXE which responsible to load the the corresponding DLL)
+9. Attach the deubbger from the local machine and check the symbols are loaded or not.(Press Ctrl+Alt+U)
