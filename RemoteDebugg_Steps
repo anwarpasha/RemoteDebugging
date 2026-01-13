@@ -8,3 +8,8 @@ C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\Remote Debugger\x64
 7. Start the application in the remote machine
 8. In local machine (VS) attached the debugger by selecting the remote machine and running application(EXE which responsible to load the the corresponding DLL)
 9. Attach the deubbger from the local machine and check the symbols are loaded or not.(Press Ctrl+Alt+U)
+
+
+
+
+NOTE: Install the VS 2022 debugger and folders from "C:\Program Files\Microsoft Visual Studio 17.0\Common7\ide\Remote Debugger"
